@@ -1,0 +1,10 @@
+seg_paper ann_paper_inputs {'mae': 0.0922, 'rmse': 0.123, 'r2': 0.5772, 'n': 115486}
+seg_paper ann_plus_chemistry {'mae': 0.0528, 'rmse': 0.0713, 'r2': 0.8578, 'n': 115486}
+occ_paper xgb_as_published {'accuracy': 0.902, 'balanced_accuracy': 0.708, 'tpr': 0.444, 'tnr': 0.973, 'f1': 0.547, 'auroc': 0.907, 'pos_rate': 0.134, 'isotherm_mae': 0.059}
+occ_paper xgb_clean {'accuracy': 0.9, 'balanced_accuracy': 0.713, 'tpr': 0.457, 'tnr': 0.969, 'f1': 0.552, 'auroc': 0.905, 'pos_rate': 0.134, 'isotherm_mae': 0.059}
+occ_paper xgb_plus_solute_conc {'accuracy': 0.916, 'balanced_accuracy': 0.765, 'tpr': 0.56, 'tnr': 0.971, 'f1': 0.641, 'auroc': 0.936, 'pos_rate': 0.134, 'isotherm_mae': 0.017}
+occ_paper ann_paper_inputs {'accuracy': 0.897, 'balanced_accuracy': 0.683, 'tpr': 0.389, 'tnr': 0.976, 'f1': 0.504, 'auroc': 0.898, 'pos_rate': 0.134, 'isotherm_mae': 0.058}
+occ_base_l2_m24_L3_e100 xgb_soap_eseg_solute_conc {'accuracy': 0.827, 'balanced_accuracy': 0.827, 'tpr': 0.821, 'tnr': 0.832, 'f1': 0.809, 'auroc': 0.916, 'pos_rate': 0.445, 'isotherm_mae': 0.058}
+occ_base_l2_m24_L3_e100 ann_soap_eseg_solute_conc {'accuracy': 0.819, 'balanced_accuracy': 0.819, 'tpr': 0.815, 'tnr': 0.823, 'f1': 0.8, 'auroc': 0.906, 'pos_rate': 0.445, 'isotherm_mae': 0.067}
+occ_conc_l2_m24_L3_e100 xgb_soap_eseg_solute_conc {'accuracy': 0.734, 'balanced_accuracy': 0.712, 'tpr': 0.462, 'tnr': 0.961, 'f1': 0.613, 'auroc': 0.84, 'pos_rate': 0.455, 'isotherm_mae': 0.186}
+occ_conc_l2_m24_L3_e100 ann_soap_eseg_solute_conc {'accuracy': 0.75, 'balanced_accuracy': 0.741, 'tpr': 0.638, 'tnr': 0.844, 'f1': 0.699, 'auroc': 0.828, 'pos_rate': 0.455, 'isotherm_mae': 0.066}

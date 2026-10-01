@@ -1,0 +1,46 @@
+site_l0_m32_L3: params=39425 rotation-invariance max |diff|=1.58e-06
+ep   1 train_rmse=0.3429 val_mae=0.2207 best=0.2207 [2s]
+ep   5 train_rmse=0.4692 val_mae=0.2718 best=0.2207 [10s]
+ep  10 train_rmse=0.1762 val_mae=0.1271 best=0.1271 [20s]
+ep  15 train_rmse=0.1407 val_mae=0.1043 best=0.1043 [29s]
+ep  20 train_rmse=0.1282 val_mae=0.0935 best=0.0935 [39s]
+ep  25 train_rmse=0.1279 val_mae=0.0900 best=0.0896 [48s]
+ep  30 train_rmse=0.1143 val_mae=0.0816 best=0.0816 [57s]
+ep  35 train_rmse=0.1101 val_mae=0.0796 best=0.0796 [67s]
+ep  40 train_rmse=0.1082 val_mae=0.0749 best=0.0749 [76s]
+ep  45 train_rmse=0.0999 val_mae=0.0718 best=0.0718 [85s]
+ep  50 train_rmse=0.0951 val_mae=0.0677 best=0.0677 [95s]
+ep  55 train_rmse=0.0925 val_mae=0.0659 best=0.0659 [104s]
+ep  60 train_rmse=0.0904 val_mae=0.0641 best=0.0641 [113s]
+ep  65 train_rmse=0.0883 val_mae=0.0636 best=0.0632 [122s]
+ep  70 train_rmse=0.0899 val_mae=0.0620 best=0.0620 [132s]
+ep  75 train_rmse=0.0854 val_mae=0.0606 best=0.0606 [141s]
+ep  80 train_rmse=0.0840 val_mae=0.0594 best=0.0594 [150s]
+ep  85 train_rmse=0.0853 val_mae=0.0606 best=0.0593 [160s]
+ep  90 train_rmse=0.0829 val_mae=0.0581 best=0.0581 [169s]
+ep  95 train_rmse=0.0817 val_mae=0.0574 best=0.0574 [178s]
+ep 100 train_rmse=0.0806 val_mae=0.0569 best=0.0569 [188s]
+ep 105 train_rmse=0.0801 val_mae=0.0566 best=0.0566 [197s]
+ep 110 train_rmse=0.0797 val_mae=0.0562 best=0.0562 [206s]
+ep 115 train_rmse=0.0793 val_mae=0.0560 best=0.0560 [216s]
+ep 120 train_rmse=0.0791 val_mae=0.0558 best=0.0558 [225s]
+ep 125 train_rmse=0.0789 val_mae=0.0556 best=0.0556 [235s]
+ep 130 train_rmse=0.0788 val_mae=0.0556 best=0.0556 [244s]
+ep 135 train_rmse=0.0787 val_mae=0.0555 best=0.0555 [253s]
+ep 140 train_rmse=0.0786 val_mae=0.0555 best=0.0555 [262s]
+ep 145 train_rmse=0.0786 val_mae=0.0554 best=0.0554 [272s]
+ep 150 train_rmse=0.0786 val_mae=0.0554 best=0.0554 [281s]
+{
+  "test": {
+    "mae": 0.05545903369784355,
+    "rmse": 0.08160348981618881,
+    "r2": 0.8166649341583252,
+    "n": 15096
+  },
+  "baseline_group_mean": {
+    "mae": 0.11806636303663254,
+    "rmse": 0.16451476514339447,
+    "r2": 0.25485992431640625,
+    "n": 15096
+  }
+}

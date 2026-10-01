@@ -1,0 +1,11 @@
+# Dataset: not part of this repository (obtain it from the authors; see README)
+data/
+NbMoTaW_GB_Segregation_Dataset_MSMSE2024/
+*.zip
+*.npz
+dump.*
+
+# Generated during training
+gnn/cache/
+gnn/runs/*/predictions.csv
+__pycache__/

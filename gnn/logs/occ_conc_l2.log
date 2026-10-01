@@ -1,0 +1,57 @@
+occ_conc_l2_m24_L3_e100: params=64353
+ep   1 train_bce=0.6798 val_bce=0.7742 best=0.7742 [23s]
+ep   5 train_bce=0.4036 val_bce=0.6676 best=0.6676 [100s]
+ep  10 train_bce=0.3679 val_bce=0.6968 best=0.5922 [197s]
+ep  15 train_bce=0.3312 val_bce=0.5802 best=0.5726 [295s]
+ep  20 train_bce=0.3137 val_bce=0.6564 best=0.5726 [392s]
+ep  25 train_bce=0.2860 val_bce=0.5285 best=0.4982 [490s]
+ep  30 train_bce=0.2957 val_bce=0.4763 best=0.4763 [587s]
+ep  35 train_bce=0.2579 val_bce=0.4366 best=0.4348 [684s]
+ep  40 train_bce=0.2568 val_bce=0.4292 best=0.4292 [781s]
+ep  45 train_bce=0.2440 val_bce=0.4111 best=0.4111 [878s]
+ep  50 train_bce=0.2420 val_bce=0.4129 best=0.4059 [975s]
+ep  55 train_bce=0.2356 val_bce=0.4039 best=0.4022 [1072s]
+ep  60 train_bce=0.2325 val_bce=0.4015 best=0.3992 [1169s]
+ep  65 train_bce=0.2308 val_bce=0.3985 best=0.3959 [1266s]
+ep  70 train_bce=0.2296 val_bce=0.3961 best=0.3958 [1363s]
+ep  75 train_bce=0.2288 val_bce=0.3944 best=0.3944 [1461s]
+ep  80 train_bce=0.2282 val_bce=0.3936 best=0.3936 [1558s]
+ep  85 train_bce=0.2278 val_bce=0.3934 best=0.3932 [1655s]
+ep  90 train_bce=0.2276 val_bce=0.3930 best=0.3930 [1752s]
+ep  95 train_bce=0.2275 val_bce=0.3929 best=0.3929 [1849s]
+ep 100 train_bce=0.2275 val_bce=0.3929 best=0.3928 [1946s]
+{
+  "test": {
+    "accuracy": 0.7577333542932998,
+    "balanced_accuracy": 0.7591064319015585,
+    "tpr": 0.7742400230514335,
+    "tnr": 0.7439728407516835,
+    "f1": 0.743974416361715,
+    "auroc": 0.8505336320471604,
+    "n": 229008,
+    "pos_rate": 0.45463477258436386,
+    "isotherm_mae": 0.09538701054957764
+  },
+  "baseline_group_rate": {
+    "accuracy": 0.5453652274156361,
+    "balanced_accuracy": 0.5,
+    "tpr": 0.0,
+    "tnr": 1.0,
+    "f1": 0.0,
+    "auroc": 0.6786153212241164,
+    "n": 229008,
+    "pos_rate": 0.45463477258436386,
+    "isotherm_mae": 0.2977482029720357
+  },
+  "baseline_random_mixing": {
+    "accuracy": 0.5586486061622301,
+    "balanced_accuracy": 0.5438881516319505,
+    "tpr": 0.3812034769245546,
+    "tnr": 0.7065728263393465,
+    "f1": 0.43988672825309916,
+    "auroc": 0.558629075755523,
+    "n": 229008,
+    "pos_rate": 0.45463477258436386,
+    "isotherm_mae": 0.14999206791238393
+  }
+}

@@ -1,0 +1,57 @@
+occ_paper_l0_m32_L3_e100: params=39553
+ep   1 train_bce=0.5850 val_bce=0.5362 best=0.5362 [4s]
+ep   5 train_bce=0.3758 val_bce=0.3573 best=0.3573 [14s]
+ep  10 train_bce=0.3412 val_bce=0.3149 best=0.3149 [26s]
+ep  15 train_bce=0.3073 val_bce=0.2939 best=0.2920 [38s]
+ep  20 train_bce=0.2892 val_bce=0.2772 best=0.2772 [51s]
+ep  25 train_bce=0.2756 val_bce=0.2688 best=0.2660 [63s]
+ep  30 train_bce=0.2963 val_bce=0.2818 best=0.2660 [75s]
+ep  35 train_bce=0.2709 val_bce=0.2557 best=0.2537 [87s]
+ep  40 train_bce=0.2644 val_bce=0.2448 best=0.2421 [99s]
+ep  45 train_bce=0.2460 val_bce=0.2288 best=0.2288 [111s]
+ep  50 train_bce=0.2482 val_bce=0.2277 best=0.2277 [124s]
+ep  55 train_bce=0.2312 val_bce=0.2184 best=0.2184 [136s]
+ep  60 train_bce=0.2315 val_bce=0.2191 best=0.2163 [148s]
+ep  65 train_bce=0.2308 val_bce=0.2162 best=0.2162 [160s]
+ep  70 train_bce=0.2234 val_bce=0.2110 best=0.2103 [172s]
+ep  75 train_bce=0.2211 val_bce=0.2076 best=0.2076 [184s]
+ep  80 train_bce=0.2202 val_bce=0.2068 best=0.2068 [197s]
+ep  85 train_bce=0.2196 val_bce=0.2064 best=0.2064 [209s]
+ep  90 train_bce=0.2193 val_bce=0.2061 best=0.2061 [221s]
+ep  95 train_bce=0.2192 val_bce=0.2061 best=0.2061 [233s]
+ep 100 train_bce=0.2192 val_bce=0.2060 best=0.2060 [245s]
+{
+  "test": {
+    "accuracy": 0.9119157409348145,
+    "balanced_accuracy": 0.7514989594457409,
+    "tpr": 0.5322014051522248,
+    "tnr": 0.9707965137392568,
+    "f1": 0.6186479128856625,
+    "auroc": 0.9326969682027351,
+    "n": 76336,
+    "pos_rate": 0.13424858520226368,
+    "isotherm_mae": 0.01193566272196839
+  },
+  "baseline_group_rate": {
+    "accuracy": 0.8662754139593377,
+    "balanced_accuracy": 0.524707434772703,
+    "tpr": 0.05776736924277908,
+    "tnr": 0.9916475003026268,
+    "f1": 0.10393258426966293,
+    "auroc": 0.8064420975885676,
+    "n": 76336,
+    "pos_rate": 0.13424858520226368,
+    "isotherm_mae": 0.010336535704583894
+  },
+  "baseline_random_mixing": {
+    "accuracy": 0.8657514147977363,
+    "balanced_accuracy": 0.5,
+    "tpr": 0.0,
+    "tnr": 1.0,
+    "f1": 0.0,
+    "auroc": 0.6404265126390749,
+    "n": 76336,
+    "pos_rate": 0.13424858520226368,
+    "isotherm_mae": 0.106037141490211
+  }
+}

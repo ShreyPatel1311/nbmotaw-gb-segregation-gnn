@@ -1,0 +1,36 @@
+site_l0_m32_L3_e100: params=39425 rotation-invariance max |diff|=1.24e-06
+ep   1 train_rmse=0.3547 val_mae=0.2811 best=0.2811 [2s]
+ep   5 train_rmse=0.4982 val_mae=0.2443 best=0.2443 [10s]
+ep  10 train_rmse=0.1707 val_mae=0.1231 best=0.1231 [19s]
+ep  15 train_rmse=0.1570 val_mae=0.1131 best=0.1076 [29s]
+ep  20 train_rmse=0.1277 val_mae=0.0912 best=0.0912 [38s]
+ep  25 train_rmse=0.1152 val_mae=0.0827 best=0.0827 [47s]
+ep  30 train_rmse=0.1119 val_mae=0.0840 best=0.0808 [57s]
+ep  35 train_rmse=0.1044 val_mae=0.0750 best=0.0747 [66s]
+ep  40 train_rmse=0.1030 val_mae=0.0755 best=0.0740 [76s]
+ep  45 train_rmse=0.0973 val_mae=0.0698 best=0.0698 [85s]
+ep  50 train_rmse=0.0952 val_mae=0.0684 best=0.0684 [95s]
+ep  55 train_rmse=0.0923 val_mae=0.0662 best=0.0662 [105s]
+ep  60 train_rmse=0.0905 val_mae=0.0652 best=0.0652 [115s]
+ep  65 train_rmse=0.0893 val_mae=0.0644 best=0.0644 [124s]
+ep  70 train_rmse=0.0883 val_mae=0.0636 best=0.0636 [134s]
+ep  75 train_rmse=0.0876 val_mae=0.0631 best=0.0631 [144s]
+ep  80 train_rmse=0.0871 val_mae=0.0628 best=0.0628 [154s]
+ep  85 train_rmse=0.0868 val_mae=0.0626 best=0.0626 [164s]
+ep  90 train_rmse=0.0866 val_mae=0.0625 best=0.0625 [174s]
+ep  95 train_rmse=0.0866 val_mae=0.0625 best=0.0625 [183s]
+ep 100 train_rmse=0.0866 val_mae=0.0625 best=0.0625 [193s]
+{
+  "test": {
+    "mae": 0.06181156262755394,
+    "rmse": 0.08896805346012115,
+    "r2": 0.7820804119110107,
+    "n": 15096
+  },
+  "baseline_group_mean": {
+    "mae": 0.11806636303663254,
+    "rmse": 0.16451476514339447,
+    "r2": 0.25485992431640625,
+    "n": 15096
+  }
+}

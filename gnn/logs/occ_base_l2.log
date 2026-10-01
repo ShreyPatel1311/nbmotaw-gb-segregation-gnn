@@ -1,0 +1,57 @@
+occ_base_l2_m24_L3_e100: params=64353
+ep   1 train_bce=0.7570 val_bce=0.6775 best=0.6775 [20s]
+ep   5 train_bce=0.6480 val_bce=0.6652 best=0.6652 [82s]
+ep  10 train_bce=0.6123 val_bce=0.5623 best=0.5606 [162s]
+ep  15 train_bce=0.4963 val_bce=0.4450 best=0.4450 [241s]
+ep  20 train_bce=0.4187 val_bce=0.3731 best=0.3486 [321s]
+ep  25 train_bce=0.3877 val_bce=0.3265 best=0.3265 [400s]
+ep  30 train_bce=0.3706 val_bce=0.3246 best=0.3246 [480s]
+ep  35 train_bce=0.3493 val_bce=0.3261 best=0.3246 [559s]
+ep  40 train_bce=0.3391 val_bce=0.3206 best=0.3189 [638s]
+ep  45 train_bce=0.3323 val_bce=0.3155 best=0.3134 [718s]
+ep  50 train_bce=0.3267 val_bce=0.3113 best=0.3087 [797s]
+ep  55 train_bce=0.3231 val_bce=0.3124 best=0.3066 [877s]
+ep  60 train_bce=0.3202 val_bce=0.3109 best=0.3052 [956s]
+ep  65 train_bce=0.3176 val_bce=0.3066 best=0.3039 [1035s]
+ep  70 train_bce=0.3157 val_bce=0.3065 best=0.3039 [1115s]
+ep  75 train_bce=0.3145 val_bce=0.3062 best=0.3039 [1195s]
+ep  80 train_bce=0.3137 val_bce=0.3063 best=0.3039 [1274s]
+ep  85 train_bce=0.3132 val_bce=0.3060 best=0.3039 [1353s]
+ep  90 train_bce=0.3129 val_bce=0.3054 best=0.3039 [1433s]
+ep  95 train_bce=0.3128 val_bce=0.3055 best=0.3039 [1512s]
+ep 100 train_bce=0.3128 val_bce=0.3055 best=0.3039 [1591s]
+{
+  "test": {
+    "accuracy": 0.7907382474793608,
+    "balanced_accuracy": 0.7954613116535045,
+    "tpr": 0.8382035158759514,
+    "tnr": 0.7527191074310575,
+    "f1": 0.780841668102393,
+    "auroc": 0.8882361847361501,
+    "n": 230993,
+    "pos_rate": 0.4447494079907183,
+    "isotherm_mae": 0.13259043831299566
+  },
+  "baseline_group_rate": {
+    "accuracy": 0.7881840575255528,
+    "balanced_accuracy": 0.7900347147704956,
+    "tpr": 0.8067825646816049,
+    "tnr": 0.7732868648593861,
+    "f1": 0.7721056750009315,
+    "auroc": 0.8776508884692975,
+    "n": 230993,
+    "pos_rate": 0.4447494079907183,
+    "isotherm_mae": 0.08676690429624717
+  },
+  "baseline_random_mixing": {
+    "accuracy": 0.7888810483434563,
+    "balanced_accuracy": 0.7790752762419039,
+    "tpr": 0.6903362080713299,
+    "tnr": 0.8678143444124778,
+    "f1": 0.7441516402688225,
+    "auroc": 0.8660239669307817,
+    "n": 230993,
+    "pos_rate": 0.4447494079907183,
+    "isotherm_mae": 0.13360710644818455
+  }
+}
