@@ -1,7 +1,5 @@
 # Structure-only prediction of grain-boundary segregation in NbMoTaW with equivariant graph neural networks
 
-*Author: (your name) · October 2026*
-
 ## Summary
 
 The ML framework of Aksoy et al. (2024) predicts grain-boundary (GB) segregation in the refractory complex
