@@ -35,7 +35,8 @@ def bars(ax, groups, series, values, fmt):
                 ax.text(x, 0.004, "not run", ha="center", va="bottom", fontsize=6.5, color=MUTED, rotation=90)
                 continue
             ax.bar(x, v, width * 0.9, color=COLORS[s], edgecolor="white", linewidth=0.8, label=LABELS[s] if j == 0 else None)
-            ax.text(x, v, fmt.format(v), ha="center", va="bottom", fontsize=6.5, color=INK)
+            ax.text(x, v + 0.001, fmt.format(v), ha="center", va="bottom", fontsize=6.5, color=INK,
+                    bbox=dict(facecolor="white", edgecolor="none", pad=0.6))
     ax.set_xticks(range(len(groups)))
     ax.yaxis.grid(True, color="#e6e4df", linewidth=0.6)
     ax.set_axisbelow(True)
@@ -63,9 +64,8 @@ def fig_segregation():
     fig, ax = plt.subplots(figsize=(7.2, 3.4))
     groups = ["paper", "site", "base"]
     bars(ax, groups, list(COLORS), v, "{:.3f}")
-    ax.axhline(0.07, color=INK, linestyle=(0, (3, 3)), linewidth=0.8)
-    ax.text(-0.48, 0.0715, "paper's reported ANN (0.07 eV)", ha="left", va="bottom", fontsize=7, color=INK)
-    ax.set_xticklabels(["Authors' row split\n(test sites also in training)", "Unseen GB sites", "Unseen hosts\n(Ta, NbW, MoTaW)"])
+    ax.axhline(0.07, color=INK, linestyle=(0, (3, 3)), linewidth=0.8, label="Paper's reported ANN (0.07 eV)")
+    ax.set_xticklabels(["Authors' split", "Unseen GB sites", "Unseen hosts\n(Ta, NbW, MoTaW)"])
     ax.set_ylabel("Test MAE of segregation energy (eV)")
     ax.set_xlim(-0.55, 2.55)
     ax.legend(frameon=False, fontsize=7, ncol=3, loc="upper left", bbox_to_anchor=(0, 1.18))
